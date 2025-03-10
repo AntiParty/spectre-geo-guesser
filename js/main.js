@@ -9,7 +9,4 @@ window.onload = async () => {
     // Load JSON data and set up event handlers
     await loadData();
     setupEventListeners();
-    
-    // Ensure confirmation buttons are hidden on initial load
-    toggleVisibility(false, "btn-yes", "btn-no");
 };

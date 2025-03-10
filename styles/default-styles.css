@@ -30,6 +30,14 @@ h1 {
   margin: 0.5rem 0;
 }
 
+#logo-image {
+  position: relative;
+  width: 90%;
+  max-width: 850px;
+  height: auto;
+  margin: 0.5rem auto;
+}
+
 /* Layout Structure */
 .game-layout {
   position: relative;
@@ -318,18 +326,6 @@ h1 {
   right: 0;
 }
 
-#btn-yes {
-  position: absolute;
-  top: 8.4rem !important;
-  right: 1.7rem;
-}
-
-#btn-no {
-  position: absolute;
-  top: 11.2rem !important;
-  right: 1.7rem;
-}
-
 #btn-submit {
   position: absolute;
   top: 16rem;
@@ -346,33 +342,6 @@ h1 {
   width: 60px !important;
   height: 40px !important;
   overflow: visible;
-}
-
-/* Confirmation buttons */
-.confirm-btn {
-  visibility: hidden;
-  width: 40px !important;
-  height: 40px !important;
-  overflow: visible;
-  transition: color 0.3s;
-  position: absolute;
-  right: 1rem;
-}
-
-#btn-yes {
-  top: 9rem;
-}
-
-#btn-no {
-  top: 13rem;
-}
-
-#btn-yes .icon-wrapper i {
-  font-size: 2rem;
-}
-
-#btn-no .icon-wrapper i {
-  font-size: 2rem;
 }
 
 .icon-btn:hover .icon-text,
@@ -415,6 +384,11 @@ h1 {
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 6px;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 /* Index Page */
