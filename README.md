@@ -1,1 +1,1 @@
-https://spectre-geo-guesser.vercel.app/
+https://spectre-geo-guessr.vercel.app/
